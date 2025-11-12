@@ -39,10 +39,10 @@ def carregar_dados():
             dados_df.rename(columns={
                 'id': 'ID',
                 'title': 'Produto',
-                'price': 'Preco',
+                'price': 'Preço',
                 'description': 'Descricao',
-                'rating_rate': 'Avaliacao',
-                'rating_count': 'Contagem_Avaliacoes'
+                'rating_rate': 'Avaliação',
+                'rating_count': 'Contagem_Avaliações'
             }, inplace=True)
 
             dados_df.set_index('ID', inplace=True)
