@@ -88,8 +88,8 @@ if df is not None:
     ]
 
     st.sidebar.subheader("Filtrar por Preço")
-    preco_max = int(df['Preco'].max())
-    preco_min = int(df['Preco'].min())
+    preco_max = int(df['Preço'].max())
+    preco_min = int(df['Preço'].min())
 
     preco_range = st.sidebar.slider(
         "Selecione o Range de Preço (R$)",
