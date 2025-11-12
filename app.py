@@ -131,6 +131,9 @@ if df is not None:
             Avaliacao_Media=('Avaliação', 'mean')
         ).reset_index()
 
+        num_linhas = len(df_resumo_categoria)
+        altura_tabela = 38 + (num_linhas * 35)
+
         st.dataframe(
             df_resumo_categoria,
             hide_index=True,
@@ -144,7 +147,9 @@ if df is not None:
                     "Avaliação Média", format="⭐ %.2f"
                 ),
             },
-            use_container_width=True
+            use_container_width=True,
+
+            height=altura_tabela
         )
 
         st.header("Visualizações (Baseado nos Filtros)")
