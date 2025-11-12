@@ -1,0 +1,14 @@
+[data-testid="stMetric"] {
+    background-color: #FFFFFF;
+
+    border: 1px solid #a3b18a;
+
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+[data-testid="stHorizontalBlock"] {
+    height: 100%;
+}
