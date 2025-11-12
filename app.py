@@ -101,8 +101,8 @@ if df is not None:
     df_filtrado = df[df['Categoria'].isin(categorias_para_filtrar)]
 
     df_filtrado = df_filtrado[
-        (df_filtrado['Preco'] >= preco_range[0]) &
-        (df_filtrado['Preco'] <= preco_range[1])
+        (df_filtrado['Preço'] >= preco_range[0]) &
+        (df_filtrado['Preço'] <= preco_range[1])
         ]
 
     st.header("Métricas Principais (Baseado nos Filtros)")
@@ -174,8 +174,6 @@ if df is not None:
                 bind_y=False
             )
             st.altair_chart(scatter_chart, use_container_width=True)
-
-        # (A TABELA ANTIGA DE DADOS BRUTOS FOI REMOVIDA DAQUI)
 
     else:
         st.warning("Nenhum produto encontrado para os filtros selecionados.")
