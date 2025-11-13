@@ -8,8 +8,13 @@ Este projeto é um dashboard web interativo para análise de dados de produtos d
 
 ## 📸 Screenshots
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
-    <img src="https://github.com/user-attachments/assets/a914200e-ff6f-44f1-8fa3-5d580ae07991" alt="Dashboard View 1" style="max-width: 48%; height: auto; border: 1px solid #ddd; border-radius: 8px;">
-    <img src="https://github.com/user-attachments/assets/d491348f-7e16-42e6-9be5-2a588f4809bf" alt="Dashboard View 2" style="max-width: 48%; height: auto; border: 1px solid #ddd; border-radius: 8px;">
+## 📸 Screenshots
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+    <img src="https://github.com/user-attachments/assets/e54669c2-00e5-49ed-a456-79e025402ca6" alt="Dashboard View 1" style="max-width: 48%; height: auto; border: 1px solid #ddd; border-radius: 8px;">
+    <img src="https://github.com/user-attachments/assets/ea40ef8c-6da0-4e2e-82c5-8c45cb1c6a40" alt="Dashboard View 2" style="max-width: 48%; height: auto; border: 1px solid #ddd; border-radius: 8px;">
+    
+</div>
 </div>
 
 ---
