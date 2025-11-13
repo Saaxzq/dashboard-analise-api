@@ -105,7 +105,7 @@ if df is not None:
         (df_filtrado['Preço'] <= preco_range[1])
         ]
 
-    st.header("Métricas Principais (Baseado nos Filtros)")
+    st.header("Métricas Principais")
 
     if not df_filtrado.empty:
         total_produtos = df_filtrado.shape[0]
@@ -123,7 +123,7 @@ if df is not None:
         with col3:
             st.metric(label="⭐ Avaliação Média", value=f"⭐ {avaliacao_media:,.2f}")
 
-        st.header("Resumo por Categoria (Baseado nos Filtros)")
+        st.header("Resumo por Categoria")
 
         df_resumo_categoria = df_filtrado.groupby('Categoria').agg(
             Numero_de_Produtos=('Produto', 'count'),
@@ -152,7 +152,7 @@ if df is not None:
             height=altura_tabela
         )
 
-        st.header("Visualizações (Baseado nos Filtros)")
+        st.header("Visualizações")
 
         st.subheader("Preço por Produto")
         df_grafico_preco = df_filtrado[['Produto', 'Preço']].sort_values(by='Preço', ascending=False).reset_index()
