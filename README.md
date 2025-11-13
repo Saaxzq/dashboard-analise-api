@@ -1,6 +1,6 @@
 # 🛍️ Dashboard Interativo de Análise de E-commerce (ETL com API)
 
-**Link para o Dashboard Ao Vivo:** [https://dmmqfwkneuiqrexjakw7mb.streamlit.app/](https://dmmqfwkneuiqrexjakw7mb.streamlit.app/)
+**Link para o Dashboard Ao Vivo:** [https://projeto-etl-api.streamlit.app/](https://projeto-etl-api.streamlit.app/)
 
 Este projeto é um dashboard web interativo para análise de dados de produtos de e-commerce, construído inteiramente em Python. O aplicativo demonstra um processo completo de **ETL** (Extract, Transform, Load), buscando dados ao vivo de uma API pública.
 
